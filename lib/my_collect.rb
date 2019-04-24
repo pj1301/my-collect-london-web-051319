@@ -12,3 +12,7 @@ end
  my_collect(languages).collect do |x|
    x.upcase
  end
+
+ # my_collect(languages).collect do |x|
+ #   x.upcase
+ # end
