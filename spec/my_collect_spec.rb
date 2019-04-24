@@ -1,3 +1,5 @@
+require_relative "./spec_helper.rb"
+
 describe "my_collect" do
   let(:languages) { ['ruby', 'javascript', 'python', 'objective-c'] }
   let(:students) { ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'] }
