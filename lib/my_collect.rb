@@ -11,6 +11,6 @@ def my_collect(array)
   end
 end
 
- my_collect(array) {|x| x.upcase}
+ my_collect(collection) {|language| language.upcase}
 
  my_collect(student) {|name| name.split(" ").first}
