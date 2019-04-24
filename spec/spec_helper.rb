@@ -17,6 +17,19 @@ require_relative "../lib/my_collect.rb"
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+  #  config
+end
+
+def capture_stdout(&block)
+  original_stdout = $stdout
+  $stdout = fake = StringIO.new
+    begin
+        yield
+      ensure
+        $stdout = original_stdout
+      end
+      fake.string
+end
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
 =begin
@@ -77,4 +90,4 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 =end
-end
+# end
