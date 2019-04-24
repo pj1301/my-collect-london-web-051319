@@ -13,7 +13,4 @@ end
 
  my_collect(array).collect {|x| x.upcase}
 
-
- my_collect(students) do |y|
-   y.split(" ").first
- end
+ my_collect(array) {|y| y.split(" ").first}
