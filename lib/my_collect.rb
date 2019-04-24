@@ -13,6 +13,6 @@ end
  #   x.upcase
  # end
 
- # my_collect(languages).collect do |x|
- #   x.upcase
+ # my_collect(students) do |student|
+ #   student.split(" ").first
  # end
