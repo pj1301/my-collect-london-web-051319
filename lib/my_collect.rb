@@ -9,7 +9,7 @@ def my_collect(array)
 end
 
 # my_collect(collection) {|collection| collection.upcase}
- my_collect(languages).collect do |x|
+ my_collect().collect do |x|
    x.upcase
  end
 
