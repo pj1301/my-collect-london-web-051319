@@ -10,12 +10,12 @@ def my_collect(array)
 end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
-students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller'] 
+students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 # my_collect(collection) {|collection| collection.upcase}
  my_collect(languages).collect do |x|
    x.upcase
  end
 
- my_collect() do |y|
+ my_collect(students) do |y|
    y.split(" ").first
  end
