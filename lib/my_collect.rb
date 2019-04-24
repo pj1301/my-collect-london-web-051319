@@ -9,6 +9,6 @@ def my_collect(collection)
 end
 
 # my_collect(collection) {|collection| collection.upcase}
- my_collection do |collection|
+ my_collect do |collection|
    collection.upcase
  end
