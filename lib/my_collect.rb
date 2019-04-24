@@ -13,6 +13,6 @@ end
    x.upcase
  end
 
- my_collect() do |student|
-   student.split(" ").first
+ my_collect() do |y|
+   y.split(" ").first
  end
