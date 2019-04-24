@@ -11,7 +11,7 @@ def my_collect(array)
   end
 end
 
- my_collect(languages).collect {|x| x.upcase}
+ my_collect(array).collect {|x| x.upcase}
 
 
  my_collect(students) do |y|
