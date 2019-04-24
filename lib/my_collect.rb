@@ -13,4 +13,4 @@ end
 
  my_collect(array) {|x| x.upcase}
 
- my_collect(array) {|y| y.split(" ").first}
+ my_collect(student) {|name| name.split(" ").first}
